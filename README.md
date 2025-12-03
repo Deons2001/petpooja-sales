@@ -11,7 +11,7 @@ This repository contains a script to fetch sales data from the Petpooja API and 
 
 ## Setup (local)
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Deons2001/petpooja-sales.git
 cd petpooja-sales
 python3 -m venv venv
 source venv/bin/activate
@@ -26,7 +26,7 @@ python fetch_store_sales.py --demo   # runs demo mode with sample data
 git init
 git add .
 git commit -m "Add Petpooja sales fetcher (demo)"
-git remote add origin https://github.com/<your-username>/petpooja-sales.git
+git remote add origin https://github.com/Deons2001/petpooja-sales.git
 git branch -M main
 git push -u origin main
 ```
